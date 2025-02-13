@@ -1,0 +1,9 @@
+# ninja log v6
+1	173	1739452517426433100	ChoreDecide_autogen/timestamp	e9906e4eb0873ca3
+1	173	1739452517426433100	ChoreDecide_autogen/mocs_compilation.cpp	e9906e4eb0873ca3
+1	173	1739452517426433100	/Users/alexaduffy/Applications/Qt/ChoreDecide/build/Qt_6_7_2_for_macOS-Debug/ChoreDecide_autogen/timestamp	e9906e4eb0873ca3
+1	173	1739452517426433100	/Users/alexaduffy/Applications/Qt/ChoreDecide/build/Qt_6_7_2_for_macOS-Debug/ChoreDecide_autogen/mocs_compilation.cpp	e9906e4eb0873ca3
+175	945	1739452517437846774	CMakeFiles/ChoreDecide.dir/ChoreDecide_autogen/mocs_compilation.cpp.o	fd1944f399200b6
+176	962	1739452517438117149	CMakeFiles/ChoreDecide.dir/main.cpp.o	dc61c61b7b04dd42
+176	976	1739452517438277148	CMakeFiles/ChoreDecide.dir/mainwindow.cpp.o	a25840c62b605f5e
+976	1090	1739452518238305531	ChoreDecide.app/Contents/MacOS/ChoreDecide	3dd8059dcc28cedc

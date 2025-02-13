@@ -6,6 +6,11 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    TestFunction(14);
+}
+
+void MainWindow::TestFunction(int i) {
+    qDebug() << i << Qt::endl;
 }
 
 MainWindow::~MainWindow()
