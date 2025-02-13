@@ -477,9 +477,9 @@ color: rgb(139, 138, 222);</string>
       <property name="geometry">
        <rect>
         <x>60</x>
-        <y>230</y>
+        <y>240</y>
         <width>271</width>
-        <height>61</height>
+        <height>51</height>
        </rect>
       </property>
       <property name="styleSheet">
@@ -525,9 +525,9 @@ color: rgb(139, 138, 222);</string>
       <property name="geometry">
        <rect>
         <x>60</x>
-        <y>350</y>
+        <y>320</y>
         <width>281</width>
-        <height>71</height>
+        <height>151</height>
        </rect>
       </property>
       <property name="styleSheet">
@@ -610,11 +610,29 @@ font-size: 40px;</string>
      <widget class="QComboBox" name="FloorPlanDropDown">
       <property name="geometry">
        <rect>
-        <x>360</x>
+        <x>300</x>
         <y>270</y>
-        <width>261</width>
+        <width>241</width>
         <height>111</height>
        </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="SubmitFloorPlan">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>310</y>
+        <width>111</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 5%;
+color: white;
+background-color: rgb(149, 144, 200);</string>
+      </property>
+      <property name="text">
+       <string>SUBMIT</string>
       </property>
      </widget>
     </widget>
@@ -660,7 +678,7 @@ background-color: rgba(0,0,0,0);</string>
 border-radius: 10%;</string>
       </property>
       <property name="currentIndex">
-       <number>1</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="SelectAChore">
        <widget class="QLabel" name="SelectChoreLabel">
@@ -678,6 +696,130 @@ color: rgb(204, 192, 225);</string>
         </property>
         <property name="text">
          <string>Select a chore...</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="FillOutChore">
+       <widget class="QLabel" name="NewChoreLabel">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>0</y>
+          <width>161</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);
+font-size: 25px;
+font-weight: bold;</string>
+        </property>
+        <property name="text">
+         <string>NEW CHORE</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="ChoreTitleLabel">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>60</y>
+          <width>58</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Title:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="ChoreDescLabel">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>90</y>
+          <width>81</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Description:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="AssignedToLabel">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>200</y>
+          <width>81</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Assigned To:</string>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="RoommateDropDown">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>200</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+       <widget class="QPlainTextEdit" name="ChoreDescEdit">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>110</y>
+          <width>171</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="ChoreTitleEdit">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>60</y>
+          <width>131</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="SubmitChoreButton">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>240</y>
+          <width>151</width>
+          <height>32</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius: 5%;
+background-color: white;</string>
+        </property>
+        <property name="text">
+         <string>SUBMIT</string>
         </property>
        </widget>
       </widget>
@@ -761,113 +903,6 @@ background-color: white;</string>
         </property>
         <property name="text">
          <string>MARK COMPLETE</string>
-        </property>
-       </widget>
-      </widget>
-      <widget class="QWidget" name="FillOutChore">
-       <widget class="QLabel" name="NewChoreLabel">
-        <property name="geometry">
-         <rect>
-          <x>30</x>
-          <y>20</y>
-          <width>161</width>
-          <height>51</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: rgb(255, 255, 255);
-font-size: 25px;
-font-weight: bold;</string>
-        </property>
-        <property name="text">
-         <string>NEW CHORE</string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="ChoreTitleLabel">
-        <property name="geometry">
-         <rect>
-          <x>20</x>
-          <y>90</y>
-          <width>58</width>
-          <height>16</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: rgb(255, 255, 255);</string>
-        </property>
-        <property name="text">
-         <string>Title:</string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="ChoreDescLabel">
-        <property name="geometry">
-         <rect>
-          <x>20</x>
-          <y>120</y>
-          <width>81</width>
-          <height>16</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: rgb(255, 255, 255);</string>
-        </property>
-        <property name="text">
-         <string>Description:</string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="AssignedToLabel">
-        <property name="geometry">
-         <rect>
-          <x>20</x>
-          <y>240</y>
-          <width>81</width>
-          <height>16</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: rgb(255, 255, 255);</string>
-        </property>
-        <property name="text">
-         <string>Assigned To:</string>
-        </property>
-       </widget>
-       <widget class="QComboBox" name="RoommateDropDown">
-        <property name="geometry">
-         <rect>
-          <x>110</x>
-          <y>240</y>
-          <width>81</width>
-          <height>21</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">background-color: rgb(255, 255, 255);</string>
-        </property>
-       </widget>
-       <widget class="QPlainTextEdit" name="ChoreDescEdit">
-        <property name="geometry">
-         <rect>
-          <x>20</x>
-          <y>140</y>
-          <width>171</width>
-          <height>81</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">background-color: rgb(255, 255, 255);</string>
-        </property>
-       </widget>
-       <widget class="QLineEdit" name="ChoreTitleEdit">
-        <property name="geometry">
-         <rect>
-          <x>60</x>
-          <y>90</y>
-          <width>131</width>
-          <height>21</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">background-color: rgb(255, 255, 255);</string>
         </property>
        </widget>
       </widget>

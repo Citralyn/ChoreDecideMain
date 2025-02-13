@@ -293,6 +293,18 @@
 	"HEADERS" : 
 	[
 		[
+			"/Users/alexaduffy/Applications/Qt/ChoreDecide/chore.h",
+			"MU",
+			"EWIEGA46WW/moc_chore.cpp",
+			null
+		],
+		[
+			"/Users/alexaduffy/Applications/Qt/ChoreDecide/floorplan.h",
+			"MU",
+			"EWIEGA46WW/moc_floorplan.cpp",
+			null
+		],
+		[
 			"/Users/alexaduffy/Applications/Qt/ChoreDecide/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -356,6 +368,12 @@
 	"SETTINGS_FILE" : "/Users/alexaduffy/Applications/Qt/ChoreDecide/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/ChoreDecide_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "/Users/alexaduffy/Applications/Qt/ChoreDecide/chore.cpp", "MU", null ],
+		[
+			"/Users/alexaduffy/Applications/Qt/ChoreDecide/floorplan.cpp",
+			"MU",
+			null
+		],
 		[ "/Users/alexaduffy/Applications/Qt/ChoreDecide/main.cpp", "MU", null ],
 		[
 			"/Users/alexaduffy/Applications/Qt/ChoreDecide/mainwindow.cpp",

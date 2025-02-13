@@ -73,6 +73,22 @@ build CMakeFiles/ChoreDecide.dir/mainwindow.cpp.o: CXX_COMPILER__ChoreDecide_uns
   OBJECT_DIR = CMakeFiles/ChoreDecide.dir
   OBJECT_FILE_DIR = CMakeFiles/ChoreDecide.dir
 
+build CMakeFiles/ChoreDecide.dir/chore.cpp.o: CXX_COMPILER__ChoreDecide_unscanned_Debug /Users/alexaduffy/Applications/Qt/ChoreDecide/chore.cpp || cmake_object_order_depends_target_ChoreDecide
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/ChoreDecide.dir/chore.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/alexaduffy/Applications/Qt/ChoreDecide/build/Qt_6_7_2_for_macOS-Debug/ChoreDecide_autogen/include -isystem /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Headers -iframework /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib -isystem /Users/alexaduffy/Applications/Qt/6.7.2/macos/mkspecs/macx-clang -isystem /Users/alexaduffy/Applications/Qt/6.7.2/macos/include -isystem /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers -isystem /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/ChoreDecide.dir
+  OBJECT_FILE_DIR = CMakeFiles/ChoreDecide.dir
+
+build CMakeFiles/ChoreDecide.dir/floorplan.cpp.o: CXX_COMPILER__ChoreDecide_unscanned_Debug /Users/alexaduffy/Applications/Qt/ChoreDecide/floorplan.cpp || cmake_object_order_depends_target_ChoreDecide
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/ChoreDecide.dir/floorplan.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/alexaduffy/Applications/Qt/ChoreDecide/build/Qt_6_7_2_for_macOS-Debug/ChoreDecide_autogen/include -isystem /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Headers -iframework /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib -isystem /Users/alexaduffy/Applications/Qt/6.7.2/macos/mkspecs/macx-clang -isystem /Users/alexaduffy/Applications/Qt/6.7.2/macos/include -isystem /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers -isystem /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/ChoreDecide.dir
+  OBJECT_FILE_DIR = CMakeFiles/ChoreDecide.dir
+
 build CMakeFiles/ChoreDecide.dir/ChoreDecide_autogen/EWIEGA46WW/qrc_resources.cpp.o: CXX_COMPILER__ChoreDecide_unscanned_Debug /Users/alexaduffy/Applications/Qt/ChoreDecide/build/Qt_6_7_2_for_macOS-Debug/ChoreDecide_autogen/EWIEGA46WW/qrc_resources.cpp || cmake_object_order_depends_target_ChoreDecide
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/ChoreDecide.dir/ChoreDecide_autogen/EWIEGA46WW/qrc_resources.cpp.o.d
@@ -89,7 +105,7 @@ build CMakeFiles/ChoreDecide.dir/ChoreDecide_autogen/EWIEGA46WW/qrc_resources.cp
 #############################################
 # Link the executable ChoreDecide.app/Contents/MacOS/ChoreDecide
 
-build ChoreDecide.app/Contents/MacOS/ChoreDecide: CXX_EXECUTABLE_LINKER__ChoreDecide_Debug CMakeFiles/ChoreDecide.dir/ChoreDecide_autogen/mocs_compilation.cpp.o CMakeFiles/ChoreDecide.dir/main.cpp.o CMakeFiles/ChoreDecide.dir/mainwindow.cpp.o CMakeFiles/ChoreDecide.dir/ChoreDecide_autogen/EWIEGA46WW/qrc_resources.cpp.o | /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/QtGui /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/QtCore || ChoreDecide_autogen ChoreDecide_autogen_timestamp_deps
+build ChoreDecide.app/Contents/MacOS/ChoreDecide: CXX_EXECUTABLE_LINKER__ChoreDecide_Debug CMakeFiles/ChoreDecide.dir/ChoreDecide_autogen/mocs_compilation.cpp.o CMakeFiles/ChoreDecide.dir/main.cpp.o CMakeFiles/ChoreDecide.dir/mainwindow.cpp.o CMakeFiles/ChoreDecide.dir/chore.cpp.o CMakeFiles/ChoreDecide.dir/floorplan.cpp.o CMakeFiles/ChoreDecide.dir/ChoreDecide_autogen/EWIEGA46WW/qrc_resources.cpp.o | /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/QtGui /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/QtCore || ChoreDecide_autogen ChoreDecide_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
   LINK_LIBRARIES = -Wl,-rpath,/Users/alexaduffy/Applications/Qt/6.7.2/macos/lib  /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/QtWidgets  /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/QtGui  /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/QtCore  -framework IOKit  -framework DiskArbitration  -framework OpenGL  -framework AGL  -framework AppKit  -framework ImageIO  -framework Metal
   LINK_PATH = -F/Users/alexaduffy/Applications/Qt/6.7.2/macos/lib

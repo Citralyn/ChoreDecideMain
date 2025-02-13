@@ -1,4 +1,4 @@
-/Users/alexaduffy/Applications/Qt/ChoreDecide/build/Qt_6_7_2_for_macOS-Debug/ChoreDecide_autogen/EWIEGA46WW/moc_mainwindow.cpp: /Users/alexaduffy/Applications/Qt/ChoreDecide/mainwindow.h \
+/Users/alexaduffy/Applications/Qt/ChoreDecide/build/Qt_6_7_2_for_macOS-Debug/ChoreDecide_autogen/EWIEGA46WW/moc_chore.cpp: /Users/alexaduffy/Applications/Qt/ChoreDecide/chore.h \
   /Users/alexaduffy/Applications/Qt/ChoreDecide/build/Qt_6_7_2_for_macOS-Debug/ChoreDecide_autogen/moc_predefs.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
@@ -92,10 +92,6 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/wait.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/QDate \
-  /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/QDebug \
-  /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/QDir \
-  /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/QStandardPaths \
-  /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/QTimer \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h \
@@ -109,7 +105,6 @@
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qatomic.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qatomic_cxx11.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qbasicatomic.h \
-  /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qbasictimer.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qbindingstorage.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearray.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayalgorithms.h \
@@ -131,12 +126,8 @@
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qdatastream.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qdatetime.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qdebug.h \
-  /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qdir.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qendian.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qexceptionhandling.h \
-  /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qfile.h \
-  /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qfiledevice.h \
-  /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qfileinfo.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qflags.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qfloat16.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qforeach.h \
@@ -147,7 +138,6 @@
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qglobalstatic.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qhash.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h \
-  /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevice.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterable.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
@@ -183,7 +173,6 @@
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer_impl.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qsize.h \
-  /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qstandardpaths.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qstring.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringalgorithms.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringbuilder.h \
@@ -207,8 +196,6 @@
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qtdeprecationmarkers.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qtenvironmentvariables.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qtextstream.h \
-  /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qtimer.h \
-  /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qtimezone.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qtmetamacros.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qtnoop.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qtpreprocessorsupport.h \
@@ -219,7 +206,6 @@
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qtversionchecks.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qtypeinfo.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qtypes.h \
-  /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qurl.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qvariant.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h \
@@ -239,43 +225,20 @@
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qkeysequence.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qpalette.h \
-  /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qpen.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qpixmap.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qpolygon.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qregion.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qrgb.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qrgba64.h \
-  /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qtextcursor.h \
-  /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qtextdocument.h \
-  /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qtextformat.h \
-  /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qtextoption.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
-  /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QHBoxLayout \
-  /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QInputDialog \
-  /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
-  /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QPushButton \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
-  /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractbutton.h \
-  /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qboxlayout.h \
-  /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h \
-  /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
-  /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qgridlayout.h \
-  /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qinputdialog.h \
-  /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlayout.h \
-  /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlayoutitem.h \
-  /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlineedit.h \
-  /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
-  /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qpushbutton.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
-  /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \
   /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsglobal.h \
-  /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qwidget.h \
-  /Users/alexaduffy/Applications/Qt/ChoreDecide/chore.h \
-  /Users/alexaduffy/Applications/Qt/ChoreDecide/floorplan.h
+  /Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qwidget.h
