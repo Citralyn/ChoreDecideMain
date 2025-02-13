@@ -283,7 +283,8 @@
 		"/Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-relwithdebinfo.cmake",
 		"/Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake",
 		"/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/GNUInstallDirs.cmake",
-		"/Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/cmake/Qt6/macos/Info.plist.app.in"
+		"/Users/alexaduffy/Applications/Qt/6.7.2/macos/lib/cmake/Qt6/macos/Info.plist.app.in",
+		"/Users/alexaduffy/Applications/Qt/ChoreDecide/resources.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "/Users/alexaduffy/Applications/Qt/ChoreDecide",
 	"CROSS_CONFIG" : false,

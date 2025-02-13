@@ -1,0 +1,39 @@
+<RCC>
+    <qresource prefix="/community_logos">
+        <file>Puerta_Logo.png</file>
+        <file>PV2_Logo.png</file>
+        <file>PV_Logo.png</file>
+        <file>Camino_Logo.png</file>
+        <file>VDC_Logo.png</file>
+        <file>VDCN_Logo.png</file>
+    </qresource>
+    <qresource prefix="/pv_layouts">
+        <file>1bed1bathprivate.png</file>
+        <file>1bed1bathshared.png</file>
+        <file>2bed1bath.png</file>
+        <file>2bed2bathgprivate.png</file>
+        <file>2bed2bathashared.png</file>
+        <file>2bed2bathbshared.png</file>
+        <file>2bed2bathcshared.png</file>
+        <file>2bed2bathdshared.png</file>
+        <file>4bed2batha.png</file>
+        <file>4bed4bath.png</file>
+    </qresource>
+    <qresource prefix="/pv2_layouts">
+        <file>1bed1bathbshared.png</file>
+        <file>2bed2batheshared.png</file>
+        <file>2bed2bathfshared.png</file>
+        <file>4bed2bathb.png</file>
+        <file>studio.png</file>
+        <file>efficiency.png</file>
+    </qresource>
+    <qresource prefix="/vdc_layouts"/>
+    <qresource prefix="/vdcn_layouts"/>
+    <qresource prefix="/camino_layouts"/>
+    <qresource prefix="/puerta_layouts"/>
+    <qresource prefix="/general">
+        <file>PurpleCircleSelect.png</file>
+        <file>Checklist.png</file>
+        <file>ChoreDeciderIcon.icns</file>
+    </qresource>
+</RCC>
