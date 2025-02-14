@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 
     MainWindow w;
     w.setWindowIcon(icon);
-    w.setWindowTitle("Chore Decider :>");
+    w.setWindowTitle("Chore Decider :^)");
     w.setFixedSize(w.geometry().width(),w.geometry().height());
     w.show();
 

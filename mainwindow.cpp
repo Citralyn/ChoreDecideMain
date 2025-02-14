@@ -70,6 +70,11 @@ MainWindow::MainWindow(QWidget *parent)
 
 // Moving Between Applicating Pages
 void MainWindow::goToPage(int pageNumber) {
+    ui->UsernameEdit->setText("");
+    ui->UsernameEdit_2->setText("");
+    ui->PasswordEdit->setText("");
+    ui->PasswordEdit_2->setText("");
+
     if (pageNumber == 4) { // page that shows user's existing plans
         numberOfExistingPlans = getNumberOfDirectories();
         savePlan();
@@ -319,17 +324,18 @@ void MainWindow::mousePressEvent(QMouseEvent *event) {
 }
 
 void MainWindow::bringUpChore(QPushButton* button) {
-    ui->ChoreEditor->setCurrentIndex(2);
     ui->PurpleCircle->hide();
 
     currentChore = button;
     QString location = QString("x%1 y%2").arg(button->x()).arg(button->y());
     int buttonIndex = locationToChore[location];
 
-    ui->ChoreTitle->setText(chores[buttonIndex].title);
-    ui->ChoreDescription->setText(chores[buttonIndex].description);
-    ui->ChoreAssigned->setText(chores[buttonIndex].assignedTo);
-    ui->ChoreDate->setText((chores[buttonIndex].dateAssigned).toString("yyyy-MM-dd"));
+    ui->ChoreTitle->setText("Title: " + chores[buttonIndex].title);
+    ui->ChoreDescription->setText("Description: " + chores[buttonIndex].description);
+    ui->ChoreAssigned->setText("Assigned To: " + chores[buttonIndex].assignedTo);
+    ui->ChoreDate->setText("Date: " + (chores[buttonIndex].dateAssigned).toString("yyyy-MM-dd"));
+
+    ui->ChoreEditor->setCurrentIndex(2);
 }
 
 void MainWindow::addChore() {
@@ -340,9 +346,6 @@ void MainWindow::addChore() {
     newChore.title = ui->ChoreTitleEdit->text();
     newChore.description = ui->ChoreDescEdit->toPlainText();
     newChore.dateAssigned = QDate::currentDate();
-
-    ui->ChoreEditor->setCurrentIndex(2);
-    ui->PurpleCircle->hide();
 
     QPushButton* choreButton = new QPushButton("", ui->ApartmentDisplay);
 
@@ -355,6 +358,8 @@ void MainWindow::addChore() {
     newChore.location = choreButton->pos();
     chores.append(newChore);
     locationToChore.insert(location, chores.size() - 1);
+
+    MainWindow::bringUpChore(choreButton);
 
     connect(choreButton, &QPushButton::clicked, this, [choreButton, this] {MainWindow::bringUpChore(choreButton);});
 }

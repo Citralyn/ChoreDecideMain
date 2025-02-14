@@ -33,10 +33,10 @@
      <widget class="QFrame" name="TitleFrame">
       <property name="geometry">
        <rect>
-        <x>120</x>
-        <y>140</y>
-        <width>781</width>
-        <height>141</height>
+        <x>100</x>
+        <y>120</y>
+        <width>821</width>
+        <height>161</height>
        </rect>
       </property>
       <property name="styleSheet">
@@ -52,10 +52,10 @@ border-radius: 5%;</string>
       <widget class="QLabel" name="TitleLable">
        <property name="geometry">
         <rect>
-         <x>30</x>
+         <x>10</x>
          <y>30</y>
-         <width>711</width>
-         <height>81</height>
+         <width>781</width>
+         <height>91</height>
         </rect>
        </property>
        <property name="styleSheet">
@@ -64,7 +64,7 @@ font-weight: bold;
 color: rgb(139, 138, 222);</string>
        </property>
        <property name="text">
-        <string>CHORE DECIDE</string>
+        <string>CHORE DECIDER</string>
        </property>
       </widget>
      </widget>
@@ -106,44 +106,6 @@ color: rgb(139, 138, 222);</string>
      </widget>
     </widget>
     <widget class="QWidget" name="LoggedInMainPage">
-     <widget class="QFrame" name="TitleFrame_2">
-      <property name="geometry">
-       <rect>
-        <x>120</x>
-        <y>130</y>
-        <width>781</width>
-        <height>141</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: white;
-border-radius: 5%;</string>
-      </property>
-      <property name="frameShape">
-       <enum>QFrame::Shape::StyledPanel</enum>
-      </property>
-      <property name="frameShadow">
-       <enum>QFrame::Shadow::Raised</enum>
-      </property>
-      <widget class="QLabel" name="TitleLable_2">
-       <property name="geometry">
-        <rect>
-         <x>30</x>
-         <y>30</y>
-         <width>711</width>
-         <height>81</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">font-size: 100px;
-font-weight: bold;
-color: rgb(139, 138, 222);</string>
-       </property>
-       <property name="text">
-        <string>CHORE DECIDE</string>
-       </property>
-      </widget>
-     </widget>
      <widget class="QPushButton" name="LogOutButton">
       <property name="geometry">
        <rect>
@@ -179,6 +141,44 @@ color: rgb(139, 138, 222);</string>
       <property name="text">
        <string>GO BACK</string>
       </property>
+     </widget>
+     <widget class="QFrame" name="TitleFrame_2">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>130</y>
+        <width>821</width>
+        <height>161</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: white;
+border-radius: 5%;</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Shape::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Shadow::Raised</enum>
+      </property>
+      <widget class="QLabel" name="TitleLable_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>781</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-size: 100px;
+font-weight: bold;
+color: rgb(139, 138, 222);</string>
+       </property>
+       <property name="text">
+        <string>CHORE DECIDER</string>
+       </property>
+      </widget>
      </widget>
     </widget>
     <widget class="QWidget" name="SignUpPage">
