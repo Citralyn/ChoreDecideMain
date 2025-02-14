@@ -194,7 +194,7 @@ CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 CMAKE_PROJECT_INCLUDE_BEFORE:FILEPATH=/Users/alexaduffy/Applications/Qt/ChoreDecide/build/Qt_6_7_2_for_macOS-Debug/.qtc/package-manager/auto-setup.cmake
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=ChoreDecide
+CMAKE_PROJECT_NAME:STATIC=ChoreDecider
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=0.1
@@ -284,6 +284,15 @@ ChoreDecide_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 ChoreDecide_SOURCE_DIR:STATIC=/Users/alexaduffy/Applications/Qt/ChoreDecide
+
+//Value Computed by CMake
+ChoreDecider_BINARY_DIR:STATIC=/Users/alexaduffy/Applications/Qt/ChoreDecide/build/Qt_6_7_2_for_macOS-Debug
+
+//Value Computed by CMake
+ChoreDecider_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+ChoreDecider_SOURCE_DIR:STATIC=/Users/alexaduffy/Applications/Qt/ChoreDecide
 
 //Path to a program.
 MACDEPLOYQT_EXECUTABLE:FILEPATH=/Users/alexaduffy/Applications/Qt/6.7.2/macos/bin/macdeployqt

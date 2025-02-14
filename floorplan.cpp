@@ -1,10 +1,11 @@
 #include "floorplan.h"
 
 FloorPlan::FloorPlan(QWidget *parent, int community)
-    : QWidget{parent},
-    communityIndex(community),
-    communityName(communities[community])
+    : QWidget{parent}
 {
+    communityIndex = community;
+    communityName = communities[community];
+
     communityFloorPlans.insert(0, PlazaVerde);
     communityFloorPlans.insert(1, PlazaVerde2);
     communityFloorPlans.insert(2, VDC);
@@ -30,25 +31,25 @@ QString FloorPlan::getImageURL() {
 
     switch (communityIndex) {
     case 0:
-        url = "url(:/pv_layouts/" + floorplan + "png)";
+        url = "url(:/pv_layouts/" + floorplan + ".png)";
         break;
     case 1:
-        url = "url(:/pv2_layouts/" + floorplan + "png)";
+        url = "url(:/pv2_layouts/" + floorplan + ".png)";
         break;
     case 2:
-        url = "url(:/vdc_layouts/" + floorplan + "png)";
+        url = "url(:/vdc_layouts/" + floorplan + ".png)";
         break;
     case 3:
-        url = "url(:/vdcn_layouts/" + floorplan + "png)";
+        url = "url(:/vdcn_layouts/" + floorplan + ".png)";
         break;
     case 4:
-        url = "url(:/camino_layouts/" + floorplan + "png)";
+        url = "url(:/camino_layouts/" + floorplan + ".png)";
         break;
     case 5:
-        url = "url(:/puerta_layouts/" + floorplan + "png)";
+        url = "url(:/puerta_layouts/" + floorplan + ".png)";
         break;
     default:
-        url = "url(:/pv_layouts/" + floorplan + "png)";
+        url = "url(:/pv_layouts/" + floorplan + ".png)";
         break;
     }
 

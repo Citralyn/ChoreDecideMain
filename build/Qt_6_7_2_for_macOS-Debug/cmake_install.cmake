@@ -38,13 +38,13 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "/Users/alexaduffy/Applications/Qt/ChoreDecide/build/Qt_6_7_2_for_macOS-Debug/ChoreDecide.app" USE_SOURCE_PERMISSIONS)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./ChoreDecide.app/Contents/MacOS/ChoreDecide" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./ChoreDecide.app/Contents/MacOS/ChoreDecide")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "/Users/alexaduffy/Applications/Qt/ChoreDecide/build/Qt_6_7_2_for_macOS-Debug/ChoreDecider.app" USE_SOURCE_PERMISSIONS)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./ChoreDecider.app/Contents/MacOS/ChoreDecider" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./ChoreDecider.app/Contents/MacOS/ChoreDecider")
     execute_process(COMMAND /usr/bin/install_name_tool
       -delete_rpath "/Users/alexaduffy/Applications/Qt/6.7.2/macos/lib"
       -add_rpath "@executable_path/../Frameworks"
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./ChoreDecide.app/Contents/MacOS/ChoreDecide")
+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./ChoreDecider.app/Contents/MacOS/ChoreDecider")
   endif()
 endif()
 

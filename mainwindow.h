@@ -37,6 +37,7 @@ private:
     int numberOfExistingPlans = 0;
     int currentLoadButtonX = 0;
     int currentLoadButtonY = 0;
+    int currentPlanIndex;
     bool filledIn = false;
 
 protected:

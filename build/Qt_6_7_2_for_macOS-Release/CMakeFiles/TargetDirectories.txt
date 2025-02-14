@@ -1,0 +1,9 @@
+/Users/alexaduffy/Applications/Qt/ChoreDecide/build/Qt_6_7_2_for_macOS-Release/CMakeFiles/ChoreDecider.dir
+/Users/alexaduffy/Applications/Qt/ChoreDecide/build/Qt_6_7_2_for_macOS-Release/CMakeFiles/edit_cache.dir
+/Users/alexaduffy/Applications/Qt/ChoreDecide/build/Qt_6_7_2_for_macOS-Release/CMakeFiles/rebuild_cache.dir
+/Users/alexaduffy/Applications/Qt/ChoreDecide/build/Qt_6_7_2_for_macOS-Release/CMakeFiles/list_install_components.dir
+/Users/alexaduffy/Applications/Qt/ChoreDecide/build/Qt_6_7_2_for_macOS-Release/CMakeFiles/install.dir
+/Users/alexaduffy/Applications/Qt/ChoreDecide/build/Qt_6_7_2_for_macOS-Release/CMakeFiles/install/local.dir
+/Users/alexaduffy/Applications/Qt/ChoreDecide/build/Qt_6_7_2_for_macOS-Release/CMakeFiles/install/strip.dir
+/Users/alexaduffy/Applications/Qt/ChoreDecide/build/Qt_6_7_2_for_macOS-Release/CMakeFiles/ChoreDecider_autogen_timestamp_deps.dir
+/Users/alexaduffy/Applications/Qt/ChoreDecide/build/Qt_6_7_2_for_macOS-Release/CMakeFiles/ChoreDecider_autogen.dir

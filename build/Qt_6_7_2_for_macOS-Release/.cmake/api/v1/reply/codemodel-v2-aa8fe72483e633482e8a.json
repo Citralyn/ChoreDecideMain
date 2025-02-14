@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-c8f8932ab1be3269fbea.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ChoreDecider",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ChoreDecider::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ChoreDecider-Release-5a3ff8f1e5088d079103.json",
+					"name" : "ChoreDecider",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ChoreDecider_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ChoreDecider_autogen-Release-a8f57621bb08ba5425b4.json",
+					"name" : "ChoreDecider_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ChoreDecider_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ChoreDecider_autogen_timestamp_deps-Release-012dab015136a4a0e2a7.json",
+					"name" : "ChoreDecider_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/alexaduffy/Applications/Qt/ChoreDecide/build/Qt_6_7_2_for_macOS-Release",
+		"source" : "/Users/alexaduffy/Applications/Qt/ChoreDecide"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

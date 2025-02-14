@@ -28,7 +28,9 @@ MainWindow::MainWindow(QWidget *parent)
     connect(ui->SignUpButton, &QPushButton::clicked, this, [this] { MainWindow::goToPage(2);});
     connect(ui->LogInButton, &QPushButton::clicked, this, [this] { MainWindow::goToPage(3);});
     connect(ui->LogOutButton, &QPushButton::clicked, this, [this] { MainWindow::goToPage(0);});
-    connect(ui->BackButton, &QPushButton::clicked, this, [this] { MainWindow::goToPage(1);});
+    connect(ui->BackButton, &QPushButton::clicked, this, [this] { MainWindow::goToPage(4);});
+    connect(ui->BackButton_2, &QPushButton::clicked, this, [this] { MainWindow::goToPage(4);});
+    connect(ui->BackButton_3, &QPushButton::clicked, this, [this] { MainWindow::goToPage(1);});
 
     // Submit Login/SignUp Information
     connect(ui->SubmitLogin, &QPushButton::clicked, this, &MainWindow::submitLoginInfo);
@@ -70,14 +72,15 @@ MainWindow::MainWindow(QWidget *parent)
 void MainWindow::goToPage(int pageNumber) {
     if (pageNumber == 4) { // page that shows user's existing plans
         numberOfExistingPlans = getNumberOfDirectories();
+        savePlan();
         if (!filledIn) {
             fillInExisting();
         }
 
     }
-    // if (pageNumber == 6) {
-    //     resetChoreEditor();
-    // }
+    if (pageNumber == 7) {
+        resetChoreEditor();
+    }
     ui->ApplicationPages->setCurrentIndex(pageNumber);
 }
 
@@ -128,7 +131,7 @@ void MainWindow::submitSignUpInfo() {
             }
 
             MainWindow::username = submittedUsername;
-            ui->UsernameLabel->setText(submittedUsername);
+            ui->ExistingPlansLabel->setText(submittedUsername + "'s existing plans:");
 
             qDebug() << "SUCCESS: New User Directory Created: " << newDirPath;
             goToPage(4);
@@ -165,7 +168,7 @@ void MainWindow::submitLoginInfo() {
 
     if (submittedPassword == originalPassword) {
         MainWindow::username = submittedUsername;
-        ui->UsernameLabel->setText(submittedUsername);
+        ui->ExistingPlansLabel->setText(submittedUsername + "'s existing plans:");
         qDebug() << "SUCCESS: " << username << " logged in.";
         goToPage(4);
         return;
@@ -227,9 +230,14 @@ void MainWindow::getCommunityPreferences(int community) {
 void MainWindow::addNewPlanDirectory() {
     QString homeDir = QStandardPaths::writableLocation(QStandardPaths::HomeLocation);
     QString newDirPath = homeDir + "/personalTest/" + username + "/floorPlan" + QString::number(numberOfExistingPlans + 1);
-    numberOfExistingPlans += 1;
 
     if (QDir().mkpath(newDirPath)) {
+        QFile content(newDirPath + "/contents.txt");
+        content.open(QFile::WriteOnly | QFile::Truncate);
+        content.close();
+
+        numberOfExistingPlans += 1;
+        currentPlanIndex = numberOfExistingPlans;
         addLoadButton(numberOfExistingPlans);
         return;
     }
@@ -246,16 +254,17 @@ int MainWindow::getNumberOfDirectories() {
 
 void MainWindow::addLoadButton(int i) {
     QPushButton* loadButton = new QPushButton(ui->ExistingPlanScrollArea);
-    loadButton->setGeometry(currentLoadButtonX, currentLoadButtonY, 20, 20);
+    loadButton->setGeometry(currentLoadButtonX, currentLoadButtonY, 40, 40);
+    loadButton->setStyleSheet("background-color: white; color: black; border-radius: 10%;");
     loadButton->setText("PLAN" + QString::number(i));
     loadButton->show();
 
     // set next loadButton location
-    if (currentLoadButtonX < 500) {
-        currentLoadButtonX += 50;
+    if (currentLoadButtonX < 800) {
+        currentLoadButtonX += 80;
     } else {
         currentLoadButtonX = 0;
-        currentLoadButtonY += 50;
+        currentLoadButtonY += 80;
     }
 
     connect(loadButton, &QPushButton::clicked, this, [loadButton, this] {MainWindow::loadPlan(loadButton);});
@@ -297,8 +306,8 @@ void MainWindow::mousePressEvent(QMouseEvent *event) {
         resetChoreEditor();
         if (event->button() == Qt::LeftButton) {
             QPoint mousePos = event->pos();
-            mousePos.setX(mousePos.x() - 145);
-            mousePos.setY(mousePos.y() - 170);
+            mousePos.setX(mousePos.x() - 73);
+            mousePos.setY(mousePos.y() - 130);
 
             ui->PurpleCircle->show();
             ui->PurpleCircle->move(mousePos);
@@ -386,6 +395,9 @@ void MainWindow::addRoommate() {
 // Reset Preferences
 
 void MainWindow::clearPreferences() {
+    // clear floorplan dropdown
+    ui->FloorPlanDropDown->clear();
+
     // clear away previous chores that were displayed
     for (QPushButton* btn : ui->ApartmentDisplay->findChildren<QPushButton*>()) {
         delete btn;
@@ -442,7 +454,7 @@ void MainWindow::resetExisting() {
 
 void MainWindow::savePlan() {
     QString homeDir = QStandardPaths::writableLocation(QStandardPaths::HomeLocation);
-    QString userDir = homeDir + "/personalTest/" + username + "/floorPlan" + QString::number(numberOfExistingPlans);
+    QString userDir = homeDir + "/personalTest/" + username + "/floorPlan" + QString::number(currentPlanIndex);
     QFile contents(userDir + "/contents.txt");
 
     if(!contents.open(QFile::WriteOnly | QFile::Truncate)) {
@@ -497,13 +509,15 @@ void MainWindow::savePlan() {
 
 
 void MainWindow::loadPlan(QPushButton* button) {
-    int index = button->text().toInt();
+    int index = button->text()[button->text().length() - 1].digitValue();
+    currentPlanIndex = index;
+
     QString homeDir = QStandardPaths::writableLocation(QStandardPaths::HomeLocation);
-    QString userDir = homeDir + "/personalTest/" + username + "/floorPlan" + QString::number(index);
+    QString userDir = homeDir + "/personalTest/" + username + "/floorPlan" + QString::number(currentPlanIndex);
     QFile contents(userDir + "/contents.txt");
 
     if (!contents.open(QIODevice::ReadOnly | QFile::Text)) {
-        qDebug() << "ERROR: Can't write to content file.";
+        qDebug() << "ERROR: Can't read from contents file.";
         return;
     }
 
@@ -565,8 +579,15 @@ void MainWindow::loadPlan(QPushButton* button) {
 
         connect(choreButton, &QPushButton::clicked, this, [choreButton, this] {MainWindow::bringUpChore(choreButton);});
     }
-
     contents.close();
+
+    myFloorPlan.floorPlanName = myFloorPlan.communityFloorPlans[myFloorPlan.communityIndex][myFloorPlan.floorPlanIndex];
+    ui->ApartmentDisplay->setTitle(myFloorPlan.floorPlanName);
+
+    QString imageURL = myFloorPlan.getImageURL();
+    QString newStyleSheet = QString("border-image: %1, 0 0 0 0 stretch stretch;").arg(imageURL);
+    ui->ApartmentDisplay->setStyleSheet(newStyleSheet);
+
     goToPage(7);
     return;
 }
