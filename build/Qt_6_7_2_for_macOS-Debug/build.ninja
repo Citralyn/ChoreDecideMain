@@ -43,13 +43,11 @@ cmake_ninja_workdir = /Users/alexaduffy/Applications/Qt/ChoreDecide/build/Qt_6_7
 # =============================================================================
 # Object build statements for EXECUTABLE target ChoreDecider
 
-build ChoreDecider.app/Contents/Resources//ChoreDeciderIcon.icns: COPY_OSX_CONTENT /Users/alexaduffy/Applications/Qt/ChoreDecide/Resources/ChoreDeciderIcon.icns
-
 
 #############################################
 # Order-only phony target for ChoreDecider
 
-build cmake_object_order_depends_target_ChoreDecider: phony || ChoreDecider.app/Contents/Resources//ChoreDeciderIcon.icns ChoreDecider_autogen ChoreDecider_autogen/EWIEGA46WW/qrc_resources.cpp ChoreDecider_autogen/mocs_compilation.cpp ChoreDecider_autogen/timestamp ChoreDecider_autogen_timestamp_deps
+build cmake_object_order_depends_target_ChoreDecider: phony || ChoreDecider_autogen ChoreDecider_autogen/EWIEGA46WW/qrc_resources.cpp ChoreDecider_autogen/mocs_compilation.cpp ChoreDecider_autogen/timestamp ChoreDecider_autogen_timestamp_deps
 
 build CMakeFiles/ChoreDecider.dir/ChoreDecider_autogen/mocs_compilation.cpp.o: CXX_COMPILER__ChoreDecider_unscanned_Debug /Users/alexaduffy/Applications/Qt/ChoreDecide/build/Qt_6_7_2_for_macOS-Debug/ChoreDecider_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_ChoreDecider
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB

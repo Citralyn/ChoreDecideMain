@@ -22,14 +22,6 @@ rule CXX_COMPILER__ChoreDecider_unscanned_Release
 
 
 #############################################
-# Rule for copying OS X bundle content file.
-
-rule COPY_OSX_CONTENT
-  command = /Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E copy $in $out
-  description = Copying OS X Content $out
-
-
-#############################################
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__ChoreDecider_Release

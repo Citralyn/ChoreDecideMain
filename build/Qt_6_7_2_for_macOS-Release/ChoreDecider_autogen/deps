@@ -455,94 +455,35 @@ ChoreDecider_autogen/timestamp: \
 	/Users/alexaduffy/Applications/Qt/ChoreDecide/mainwindow.cpp \
 	/Users/alexaduffy/Applications/Qt/ChoreDecide/mainwindow.h \
 	/Users/alexaduffy/Applications/Qt/ChoreDecide/resources.qrc \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeCXXCompiler.cmake.in \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp \
 	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeCXXInformation.cmake \
 	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
 	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake \
 	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake \
 	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeGenericSystem.cmake \
 	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake \
 	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeNinjaFindMake.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeParseImplicitIncludeInfo.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeParseImplicitLinkInfo.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeParseLibraryArchitecture.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeSystem.cmake.in \
 	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake \
 	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake \
 	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CheckCXXCompilerFlag.cmake \
 	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake \
 	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CheckIncludeFileCXX.cmake \
 	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CheckLibraryExists.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/ADSP-DetermineCompiler.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
 	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/AppleClang-CXX.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/Borland-DetermineCompiler.cmake \
 	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompiler.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
 	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/Clang.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/Cray-DetermineCompiler.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/GHS-DetermineCompiler.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
 	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/GNU.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/IAR-DetermineCompiler.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/Intel-DetermineCompiler.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/MSVC-DetermineCompiler.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/PGI-DetermineCompiler.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/PathScale-DetermineCompiler.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/SCO-DetermineCompiler.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/TI-DetermineCompiler.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/TIClang-DetermineCompiler.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/Tasking-DetermineCompiler.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/Watcom-DetermineCompiler.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
 	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/FindOpenGL.cmake \
 	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake \
 	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/FindPackageMessage.cmake \
 	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/FindThreads.cmake \
 	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/GNUInstallDirs.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake \
 	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake \
 	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Internal/CheckFlagCommonConfig.cmake \
 	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake \
 	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/MacroAddFileDependencies.cmake \
 	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Platform/Apple-AppleClang-CXX.cmake \
 	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Platform/Apple-Clang-CXX.cmake \
 	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Platform/Apple-Clang.cmake \
-	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Platform/Darwin-Determine-CXX.cmake \
 	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Platform/Darwin-Initialize.cmake \
 	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Platform/Darwin.cmake \
 	/Users/alexaduffy/Applications/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Platform/UnixPaths.cmake \
