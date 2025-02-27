@@ -6,6 +6,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    mainExtra = new extra(this, ui);
 
     resetExisting();
     clearPreferences();
@@ -70,6 +71,7 @@ MainWindow::MainWindow(QWidget *parent)
 
 // Moving Between Applicating Pages
 void MainWindow::goToPage(int pageNumber) {
+    mainExtra->doStuff();
     ui->UsernameEdit->setText("");
     ui->UsernameEdit_2->setText("");
     ui->PasswordEdit->setText("");

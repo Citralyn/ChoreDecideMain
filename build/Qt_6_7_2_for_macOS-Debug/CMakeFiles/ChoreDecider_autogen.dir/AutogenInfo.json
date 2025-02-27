@@ -299,6 +299,12 @@
 			null
 		],
 		[
+			"/Users/alexaduffy/Applications/Qt/ChoreDecide/extra.h",
+			"MU",
+			"EWIEGA46WW/moc_extra.cpp",
+			null
+		],
+		[
 			"/Users/alexaduffy/Applications/Qt/ChoreDecide/floorplan.h",
 			"MU",
 			"EWIEGA46WW/moc_floorplan.cpp",
@@ -369,6 +375,7 @@
 	"SOURCES" : 
 	[
 		[ "/Users/alexaduffy/Applications/Qt/ChoreDecide/chore.cpp", "MU", null ],
+		[ "/Users/alexaduffy/Applications/Qt/ChoreDecide/extra.cpp", "MU", null ],
 		[
 			"/Users/alexaduffy/Applications/Qt/ChoreDecide/floorplan.cpp",
 			"MU",

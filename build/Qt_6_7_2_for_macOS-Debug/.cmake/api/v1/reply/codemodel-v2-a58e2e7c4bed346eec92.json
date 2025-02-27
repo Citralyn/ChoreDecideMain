@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-c8f8932ab1be3269fbea.json",
+					"jsonFile" : "directory-.-Debug-264e3cb0504a2b52e50d.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ChoreDecider::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ChoreDecider-Debug-023aab2596ee0550cc0a.json",
+					"jsonFile" : "target-ChoreDecider-Debug-82cb0db16538d766b29e.json",
 					"name" : "ChoreDecider",
 					"projectIndex" : 0
 				},

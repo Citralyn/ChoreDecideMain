@@ -80,7 +80,8 @@ color: rgb(139, 138, 222);</string>
       <property name="styleSheet">
        <string notr="true">font-size: 30px;
 font-weight: bold;
-color: rgb(139, 138, 222);</string>
+color: rgb(139, 138, 222);
+background-color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
        <string>LOG IN</string>
@@ -98,7 +99,8 @@ color: rgb(139, 138, 222);</string>
       <property name="styleSheet">
        <string notr="true">font-size: 30px;
 font-weight: bold;
-color: rgb(139, 138, 222);</string>
+color: rgb(139, 138, 222);
+background-color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
        <string>SIGN UP</string>
@@ -118,7 +120,8 @@ color: rgb(139, 138, 222);</string>
       <property name="styleSheet">
        <string notr="true">font-size: 30px;
 font-weight: bold;
-color: rgb(139, 138, 222);</string>
+color: rgb(139, 138, 222);
+background-color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
        <string>LOG OUT</string>
@@ -136,7 +139,8 @@ color: rgb(139, 138, 222);</string>
       <property name="styleSheet">
        <string notr="true">font-size: 30px;
 font-weight: bold;
-color: rgb(139, 138, 222);</string>
+color: rgb(139, 138, 222);
+background-color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
        <string>GO BACK</string>
@@ -541,7 +545,8 @@ font-size: 30px;</string>
       <property name="styleSheet">
        <string notr="true">font-size: 30px;
 font-weight: bold;
-color: rgb(139, 138, 222);</string>
+color: rgb(139, 138, 222);
+background-color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
        <string>ADD PLAN</string>
@@ -559,7 +564,8 @@ color: rgb(139, 138, 222);</string>
       <property name="styleSheet">
        <string notr="true">font-size: 15px;
 font-weight: bold;
-color: rgb(139, 138, 222);</string>
+color: rgb(139, 138, 222);
+background-color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
        <string>GO BACK</string>
@@ -663,44 +669,46 @@ color: rgb(139, 138, 222);</string>
        <string>...</string>
       </property>
      </widget>
-     <widget class="QLabel" name="SelectCommunityLabel">
+     <widget class="QFrame" name="SelectCommunityFrame">
       <property name="geometry">
        <rect>
-        <x>270</x>
-        <y>100</y>
-        <width>521</width>
-        <height>91</height>
+        <x>160</x>
+        <y>80</y>
+        <width>681</width>
+        <height>101</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(139, 126, 230);
+       <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 5%;</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Shape::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Shadow::Raised</enum>
+      </property>
+      <widget class="QLabel" name="SelectCommunityLabel">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>10</y>
+         <width>521</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(139, 126, 230);
 font-weight: bold;
 font-size: 40px;</string>
-      </property>
-      <property name="text">
-       <string>SELECT A COMMUNITY</string>
-      </property>
+       </property>
+       <property name="text">
+        <string>SELECT A COMMUNITY</string>
+       </property>
+      </widget>
      </widget>
     </widget>
     <widget class="QWidget" name="SelectFloorPlanPage">
-     <widget class="QLabel" name="SelectFloorPlanLabel">
-      <property name="geometry">
-       <rect>
-        <x>270</x>
-        <y>160</y>
-        <width>521</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color: rgb(139, 126, 230);
-font-weight: bold;
-font-size: 40px;</string>
-      </property>
-      <property name="text">
-       <string>SELECT A FLOOR PLAN</string>
-      </property>
-     </widget>
      <widget class="QComboBox" name="FloorPlanDropDown">
       <property name="geometry">
        <rect>
@@ -709,6 +717,9 @@ font-size: 40px;</string>
         <width>241</width>
         <height>111</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: white;</string>
       </property>
      </widget>
      <widget class="QPushButton" name="SubmitFloorPlan">
@@ -728,6 +739,44 @@ background-color: rgb(149, 144, 200);</string>
       <property name="text">
        <string>SUBMIT</string>
       </property>
+     </widget>
+     <widget class="QFrame" name="SelectFloorPlanFrame">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>150</y>
+        <width>681</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 5%;</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Shape::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Shadow::Raised</enum>
+      </property>
+      <widget class="QLabel" name="SelectFloorPlanLabel">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>0</y>
+         <width>521</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(139, 126, 230);
+font-weight: bold;
+font-size: 40px;</string>
+       </property>
+       <property name="text">
+        <string>SELECT A FLOOR PLAN</string>
+       </property>
+      </widget>
      </widget>
     </widget>
     <widget class="QWidget" name="ChorePage">
@@ -772,7 +821,7 @@ background-color: rgba(0,0,0,0);</string>
 border-radius: 10%;</string>
       </property>
       <property name="currentIndex">
-       <number>2</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="SelectAChore">
        <widget class="QLabel" name="SelectChoreLabel">
@@ -1013,7 +1062,8 @@ background-color: white;</string>
       <property name="styleSheet">
        <string notr="true">font-size: 20px;
 font-weight: bold;
-color: rgb(139, 138, 222);</string>
+color: rgb(139, 138, 222);
+background-color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
        <string>ADD ROOMMATE</string>
@@ -1031,7 +1081,8 @@ color: rgb(139, 138, 222);</string>
       <property name="styleSheet">
        <string notr="true">font-size: 30px;
 font-weight: bold;
-color: rgb(139, 138, 222);</string>
+color: rgb(139, 138, 222);
+background-color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
        <string>GO BACK</string>

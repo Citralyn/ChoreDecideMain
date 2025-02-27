@@ -3,6 +3,7 @@
 
 #include "floorplan.h"
 #include "chore.h"
+#include "extra.h"
 #include <QMainWindow>
 #include <QDir>
 #include <QStandardPaths>
@@ -25,9 +26,11 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+    Ui::MainWindow *ui;
 
 private:
-    Ui::MainWindow *ui;
+    extra *mainExtra;
+
     QString username = "";
     QString community = "";
     FloorPlan myFloorPlan;

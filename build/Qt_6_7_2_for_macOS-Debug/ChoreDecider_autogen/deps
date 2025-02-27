@@ -449,6 +449,8 @@ ChoreDecider_autogen/timestamp: \
 	/Users/alexaduffy/Applications/Qt/ChoreDecide/build/Qt_6_7_2_for_macOS-Debug/ChoreDecider_autogen/moc_predefs.h \
 	/Users/alexaduffy/Applications/Qt/ChoreDecide/chore.cpp \
 	/Users/alexaduffy/Applications/Qt/ChoreDecide/chore.h \
+	/Users/alexaduffy/Applications/Qt/ChoreDecide/extra.cpp \
+	/Users/alexaduffy/Applications/Qt/ChoreDecide/extra.h \
 	/Users/alexaduffy/Applications/Qt/ChoreDecide/floorplan.cpp \
 	/Users/alexaduffy/Applications/Qt/ChoreDecide/floorplan.h \
 	/Users/alexaduffy/Applications/Qt/ChoreDecide/main.cpp \

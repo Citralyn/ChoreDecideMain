@@ -44,6 +44,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         floorplan.h floorplan.cpp
         chore.h chore.cpp
         Resources/ChoreDeciderIcon.icns
+        extra.h extra.cpp
 
     )
 # Define target properties for Android with Qt 6 as:
